@@ -9,18 +9,6 @@ public class Human {
     int drunkenness = 0;
     boolean inPub;
 
-    /*
-    Default constructor. Exists by default with the default values of the data-types.
-    Here, I added custom default values.
-
-   Human() {
-        name = "Gordon";
-        age = 30;
-        male = true;
-        numberOfCreations += 1;
-    }
-    */
-
     Human(String name, int age, boolean male, int money) {
         this.name = name;
         this.age = age;

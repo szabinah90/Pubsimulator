@@ -18,6 +18,9 @@ public class Main {
         Wine cuvee = new Wine("villanyi", 10, 3, 2001);
         Mixed kevert1 = new Mixed("fucking disgusting", pilsner, cuvee);
         Mixed kevert2 = new Mixed("ultimate brainsmasher", vodka, tequila, whiskey, brainsmasher);
+        Drinks[] nagyonkevert = {tequila, vodka, pilsner, cuvee};
+        Mixed vomit = new Mixed("vomit", nagyonkevert);
+
 
 
         Student student1 = new Student("Billy", 18, true, 0, 80);
@@ -65,7 +68,7 @@ public class Main {
         larry.startsWorking();
 
         System.out.println("\nStatus report:");
-        System.out.println("\nBeverages:\n" + whiskey + "\n\n" + vodka + "\n\n" + tequila + "\n\n" + orangeJuice + "\n\n" + brainsmasher + "\n\n" + kevert1 + "\n\n" + kevert2);
+        System.out.println("\nBeverages:\n" + whiskey + "\n\n" + vodka + "\n\n" + tequila + "\n\n" + orangeJuice + "\n\n" + brainsmasher + "\n\n" + kevert1 + "\n\n" + kevert2 + "\n\n" + vomit);
         System.out.println("\nPersons\n" + joe + "\n\n" + cameron + "\n\n" + gordon + "\n\n" + donna + "\n\n" + sarge + "\n\n" + duncan + "\n\n" + stone + "\n\n"+ larry + "\n\n" + boz);
 
         /*
