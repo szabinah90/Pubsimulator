@@ -14,15 +14,13 @@ public class Bouncer extends Human {
     }
 
     public void startsWorking() {
-        if (inPub) {
-            if (working) {
+            if (inPub && working) {
                 System.out.println(name + " is already working.");
-            } else {
+            } else if (inPub && !working) {
                 working = true;
                 workingBouncers += 1;
                 System.out.println(name + " started working.");
-            }
-        } else {
+            } else {
             System.out.println(name + " have to go to the Pub first to start working.");
         }
 

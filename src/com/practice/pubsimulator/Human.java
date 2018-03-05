@@ -1,7 +1,5 @@
 package com.practice.pubsimulator;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 public class Human {
     String name;
     int age;
