@@ -57,13 +57,15 @@ public class Main {
         boz.washingGlasses(7);
         boz.washingGlasses(3);
         duncan.drinking(boz, tequila);
+        System.out.println("\n");
+        stone.goingPub();
+        stone.drinking(boz, kevert2);
+        stone.startsWorking();
 
 
         System.out.println("\nStatus report:");
-        System.out.println("\nBeverages:\n" + whiskey + "\n\n" + vodka + "\n\n" + tequila + "\n\n" + orangeJuice + "\n\n" + brainsmasher);
+        System.out.println("\nBeverages:\n" + whiskey + "\n\n" + vodka + "\n\n" + tequila + "\n\n" + orangeJuice + "\n\n" + brainsmasher + "\n\n" + kevert1 + "\n\n" + kevert2);
         System.out.println("\nPersons\n" + joe + "\n\n" + cameron + "\n\n" + gordon + "\n\n" + donna + "\n\n" + sarge + "\n\n" + duncan + "\n\n" + stone + "\n\n" + boz);
-        System.out.println("\n" + kevert1);
-        System.out.println("\n" + kevert2);
 
         /*
         student1.studying();
